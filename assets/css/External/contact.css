@@ -1,0 +1,1027 @@
+.Contact-Banner {
+  background-image: url(/assets/img/hero/about_hero.png);
+  width: 100vw;
+  height: 46vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  font-weight: 700;
+  font-style: normal;
+}
+.map {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 14vh;
+  margin-bottom: 10vh;
+}
+.map iframe {
+  width: 61vw;
+}
+.Contact {
+  max-width: 61vw;
+  position: relative;
+}
+.Contact-Title {
+  font-size: 27px;
+  font-weight: 600;
+  position: absolute;
+  left: 19.2vw;
+}
+.TextArea {
+  position: absolute;
+  left: 19.2vw;
+  top: 5vh;
+  width: 39vw;
+  padding-left: 2vw;
+  padding-top: 1vh;
+  border: 1px solid #e5e6e9;
+  border-radius: 0px;
+  font-size: 13px;
+  background: transparent;
+}
+
+.TextArea::placeholder {
+  font-weight: 300;
+  color: #999999;
+  opacity: 1;
+}
+
+.Info {
+  position: relative;
+  left: 66vw;
+  top: 5vh;
+}
+.Info-Location-Text {
+  position: absolute;
+  left: 2vw;
+  display: inline-block;
+}
+.home {
+  position: absolute;
+}
+.phone {
+  position: absolute;
+  top: 8vh;
+}
+.Info-Number {
+  position: absolute;
+  top: 8vh;
+  left: 2vw;
+  display: inline-block;
+}
+
+.envelope {
+  position: absolute;
+  top: 16vh;
+}
+.Info-mail {
+  position: absolute;
+  top: 16vh;
+  left: 2vw;
+  display: inline-block;
+}
+
+.Customer-Details {
+  position: absolute;
+  left: 19.2vw;
+  top: 26vh;
+}
+.customer-name {
+  width: 18.7vw;
+  height: 4.4vh;
+  padding-left: 1.7vw;
+  border: 1px solid #e5e6e9;
+  border-radius: 0px;
+  font-size: 13px;
+  background: transparent;
+}
+.customer-name::placeholder {
+  font-weight: 300;
+  color: #999999;
+  opacity: 1;
+}
+.customer-mail {
+  margin-left: 1.4vw;
+  width: 18.7vw;
+  height: 4.4vh;
+  padding-left: 1.7vw;
+  border: 1px solid #e5e6e9;
+  border-radius: 0px;
+  font-size: 13px;
+  background: transparent;
+}
+.customer-mail::placeholder {
+  font-weight: 300;
+  color: #999999;
+  opacity: 1;
+}
+.subject {
+  margin-top: 2.77vh;
+}
+.mail-subject {
+  width: 39vw;
+  height: 4.4vh;
+  padding-left: 1.7vw;
+  border: 1px solid #e5e6e9;
+  border-radius: 0px;
+  font-size: 13px;
+  background: transparent;
+}
+.mail-subject::placeholder {
+  font-weight: 300;
+  color: #999999;
+  opacity: 1;
+}
+.Send-Button {
+  position: absolute;
+  left: 19.2vw;
+  top: 41vh;
+}
+.Contact-Button {
+  padding: 0.625vh 1.5vh;
+  width: 5.5vw;
+  height: 5vh;
+  line-height: 1.5;
+  font-size: 16px;
+  letter-spacing: 3px;
+  font-weight: 500;
+  border: 1px solid #fdcb9e;
+  border-radius: 4px;
+  text-transform: uppercase;
+  background-color: #ff2020;
+  cursor: pointer;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.Footer-Container {
+  margin-top: 86vh;
+  position: relative;
+}
+
+.Footer-Container .navbar {
+  margin: 0 19.2vw;
+  width: 55.88vw;
+}
+.Footer-Container .Navbar-List-Item {
+  display: block;
+  margin: 0 1vw;
+}
+.logo-text {
+  width: 14vw;
+  margin-top: 3.7vh;
+  color: #868c98;
+  font-weight: normal;
+  outline: medium none;
+  font-size: 16px;
+}
+
+.Footer-Container .List-head {
+  margin-bottom: 3.7vh;
+  font-weight: 500;
+  font-size: 20px;
+}
+.Item-Text,
+.Item-Text a {
+  color: #868c98;
+  font-weight: normal;
+  outline: medium none;
+  font-size: 16px;
+  margin: 0 0.5vw;
+}
+.Item-Text a {
+  text-decoration: none;
+}
+.space {
+  height: 10vh;
+}
+@media only screen and (max-width: 449px) {
+  .Contact-Banner {
+    height: 25vh;
+    font-size: 30px;
+  }
+  .map {
+    margin-top: 8vh;
+    margin-bottom: 5vh;
+  }
+  .map iframe {
+    width: 80vw;
+    height: 30vh;
+  }
+  .Contact {
+    width: 80vw;
+    left: 10vw;
+  }
+  .Contact-Title {
+    font-size: 15px;
+    font-weight: 600;
+    left: 0vw;
+  }
+  .TextArea {
+    left: 0vw;
+    top: 4vh;
+    width: 60vw;
+    height: 8vh;
+    padding-left: 1vw;
+    padding-top: 1vh;
+    font-size: 13px;
+  }
+  .Info {
+    left: 30vw;
+    top: 15vh;
+  }
+  .Info-Location-Text {
+    left: 7vw;
+  }
+  .Info-Location-Text h3 {
+    font-size: 14px;
+  }
+  .Info-Location-Text p {
+    font-size: 12px;
+  }
+
+  .phone {
+    top: 5vh;
+  }
+  .Info-Number {
+    top: 5vh;
+    left: 7vw;
+  }
+  .Info-Number h3 {
+    font-size: 14px;
+  }
+  .Info-Number p {
+    font-size: 12px;
+  }
+  .envelope {
+    position: absolute;
+    top: 10.5vh;
+  }
+  .Info-mail {
+    position: absolute;
+    top: 10.5vh;
+    left: 7vw;
+    display: inline-block;
+  }
+  .Info-mail h3 {
+    font-size: 14px;
+  }
+  .Info-mail p {
+    font-size: 12px;
+  }
+  .Customer-Details {
+    left: 0vw;
+    top: 15vh;
+  }
+  .customer-name {
+    width: 25vw;
+    height: 4.4vh;
+    padding-left: 1vw;
+    font-size: 11px;
+  }
+
+  .customer-mail {
+    display: block;
+    margin-top: 2vh;
+    margin-left: 0vw;
+    width: 25vw;
+    height: 4.4vh;
+    padding-left: 1vw;
+    font-size: 11px;
+  }
+
+  .subject {
+    margin-top: 2.77vh;
+  }
+  .mail-subject {
+    width: 35vw;
+    height: 4.4vh;
+    padding-left: 1vw;
+    font-size: 13px;
+  }
+  .mail-subject::placeholder {
+    font-weight: 300;
+    color: #999999;
+    opacity: 1;
+  }
+  .Send-Button {
+    left: 0vw;
+    top: 35vh;
+  }
+  .Contact-Button {
+    width: 25vw;
+    height: 5vh;
+  }
+  .Footer-Container {
+    margin-top: 65vh;
+  }
+  .Footer-Container .List-head {
+    font-size: 12px;
+  }
+  .Item-Text,
+  .Item-Text a {
+    font-size: 12px;
+  }
+  .List-head img {
+    width: 100%;
+  }
+  .logo-text {
+    font-size: 12px;
+    margin-right: 8vw;
+  }
+}
+@media only screen and (min-width: 450px) and (max-width: 500px) {
+  .Contact-Banner {
+    height: 25vh;
+    font-size: 30px;
+  }
+  .map {
+    margin-top: 8vh;
+    margin-bottom: 5vh;
+  }
+  .map iframe {
+    width: 80vw;
+    height: 30vh;
+  }
+  .Contact {
+    width: 80vw;
+    left: 10vw;
+  }
+  .Contact-Title {
+    font-size: 15px;
+    font-weight: 600;
+    left: 0vw;
+  }
+  .TextArea {
+    left: 0vw;
+    top: 4vh;
+    width: 60vw;
+    height: 8vh;
+    padding-left: 1vw;
+    padding-top: 1vh;
+    font-size: 13px;
+  }
+  .Info {
+    left: 39vw;
+    top: 15vh;
+  }
+  .Info-Location-Text {
+    left: 7vw;
+  }
+  .Info-Location-Text h3 {
+    font-size: 14px;
+  }
+  .Info-Location-Text p {
+    font-size: 12px;
+  }
+
+  .phone {
+    top: 5vh;
+  }
+  .Info-Number {
+    top: 5vh;
+    left: 7vw;
+  }
+  .Info-Number h3 {
+    font-size: 14px;
+  }
+  .Info-Number p {
+    font-size: 12px;
+  }
+  .envelope {
+    position: absolute;
+    top: 10.5vh;
+  }
+  .Info-mail {
+    position: absolute;
+    top: 10.5vh;
+    left: 7vw;
+    display: inline-block;
+  }
+  .Info-mail h3 {
+    font-size: 14px;
+  }
+  .Info-mail p {
+    font-size: 12px;
+  }
+  .Customer-Details {
+    left: 0vw;
+    top: 15vh;
+  }
+  .customer-name {
+    width: 25vw;
+    height: 4.4vh;
+    padding-left: 1vw;
+    font-size: 11px;
+  }
+
+  .customer-mail {
+    display: block;
+    margin-top: 2vh;
+    margin-left: 0vw;
+    width: 25vw;
+    height: 4.4vh;
+    padding-left: 1vw;
+    font-size: 11px;
+  }
+
+  .subject {
+    margin-top: 2.77vh;
+  }
+  .mail-subject {
+    width: 35vw;
+    height: 4.4vh;
+    padding-left: 1vw;
+    font-size: 13px;
+  }
+  .mail-subject::placeholder {
+    font-weight: 300;
+    color: #999999;
+    opacity: 1;
+  }
+  .Send-Button {
+    left: 0vw;
+    top: 35vh;
+  }
+  .Contact-Button {
+    width: 25vw;
+    height: 5vh;
+  }
+  .Footer-Container {
+    margin-top: 65vh;
+  }
+  .Footer-Container .List-head {
+    font-size: 12px;
+  }
+  .Item-Text,
+  .Item-Text a {
+    font-size: 12px;
+  }
+  .List-head img {
+    width: 100%;
+  }
+  .logo-text {
+    font-size: 12px;
+    margin-right: 8vw;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 600px) {
+  .Contact-Banner {
+    height: 25vh;
+    font-size: 30px;
+  }
+  .map {
+    margin-top: 8vh;
+    margin-bottom: 5vh;
+  }
+  .map iframe {
+    width: 80vw;
+    height: 30vh;
+  }
+  .Contact {
+    width: 80vw;
+    left: 10vw;
+  }
+  .Contact-Title {
+    font-size: 15px;
+    font-weight: 600;
+    left: 0vw;
+  }
+  .TextArea {
+    left: 0vw;
+    top: 4vh;
+    width: 60vw;
+    height: 8vh;
+    padding-left: 1vw;
+    padding-top: 1vh;
+    font-size: 13px;
+  }
+  .Info {
+    left: 46vw;
+    top: 15vh;
+  }
+  .Info-Location-Text {
+    left: 7vw;
+  }
+  .Info-Location-Text h3 {
+    font-size: 14px;
+  }
+  .Info-Location-Text p {
+    font-size: 12px;
+  }
+
+  .phone {
+    top: 5vh;
+  }
+  .Info-Number {
+    top: 5vh;
+    left: 7vw;
+  }
+  .Info-Number h3 {
+    font-size: 14px;
+  }
+  .Info-Number p {
+    font-size: 12px;
+  }
+  .envelope {
+    position: absolute;
+    top: 10.5vh;
+  }
+  .Info-mail {
+    position: absolute;
+    top: 10.5vh;
+    left: 7vw;
+    display: inline-block;
+  }
+  .Info-mail h3 {
+    font-size: 14px;
+  }
+  .Info-mail p {
+    font-size: 12px;
+  }
+  .Customer-Details {
+    left: 0vw;
+    top: 15vh;
+  }
+  .customer-name {
+    width: 25vw;
+    height: 4.4vh;
+    padding-left: 1vw;
+    font-size: 11px;
+  }
+
+  .customer-mail {
+    display: block;
+    margin-top: 2vh;
+    margin-left: 0vw;
+    width: 25vw;
+    height: 4.4vh;
+    padding-left: 1vw;
+    font-size: 11px;
+  }
+
+  .subject {
+    margin-top: 2.77vh;
+  }
+  .mail-subject {
+    width: 35vw;
+    height: 4.4vh;
+    padding-left: 1vw;
+    font-size: 13px;
+  }
+  .mail-subject::placeholder {
+    font-weight: 300;
+    color: #999999;
+    opacity: 1;
+  }
+  .Send-Button {
+    left: 0vw;
+    top: 35vh;
+  }
+  .Contact-Button {
+    width: 25vw;
+    height: 5vh;
+  }
+  .Footer-Container {
+    margin-top: 75vh;
+  }
+  .Footer-Container .List-head {
+    font-size: 12px;
+  }
+  .Item-Text,
+  .Item-Text a {
+    font-size: 16px;
+  }
+  .List-head img {
+    width: 100%;
+  }
+  .logo-text {
+    font-size: 16px;
+    margin-right: 8vw;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+  .Contact-Banner {
+    height: 25vh;
+    font-size: 30px;
+  }
+  .map {
+    margin-top: 8vh;
+    margin-bottom: 5vh;
+  }
+  .map iframe {
+    width: 80vw;
+    height: 30vh;
+  }
+  .Contact {
+    width: 80vw;
+    left: 10vw;
+  }
+  .Contact-Title {
+    font-size: 15px;
+    font-weight: 600;
+    left: 0vw;
+  }
+  .TextArea {
+    left: 0vw;
+    top: 4vh;
+    width: 60vw;
+    height: 8vh;
+    padding-left: 1vw;
+    padding-top: 1vh;
+    font-size: 13px;
+  }
+  .Info {
+    left: 51vw;
+    top: 15vh;
+  }
+  .Info-Location-Text {
+    left: 7vw;
+  }
+  .Info-Location-Text h3 {
+    font-size: 14px;
+  }
+  .Info-Location-Text p {
+    font-size: 12px;
+  }
+
+  .phone {
+    top: 5vh;
+  }
+  .Info-Number {
+    top: 5vh;
+    left: 7vw;
+  }
+  .Info-Number h3 {
+    font-size: 14px;
+  }
+  .Info-Number p {
+    font-size: 12px;
+  }
+  .envelope {
+    position: absolute;
+    top: 10.5vh;
+  }
+  .Info-mail {
+    position: absolute;
+    top: 10.5vh;
+    left: 7vw;
+    display: inline-block;
+  }
+  .Info-mail h3 {
+    font-size: 14px;
+  }
+  .Info-mail p {
+    font-size: 12px;
+  }
+  .Customer-Details {
+    left: 0vw;
+    top: 15vh;
+  }
+  .customer-name {
+    width: 25vw;
+    height: 4.4vh;
+    padding-left: 1vw;
+    font-size: 11px;
+  }
+
+  .customer-mail {
+    display: block;
+    margin-top: 2vh;
+    margin-left: 0vw;
+    width: 25vw;
+    height: 4.4vh;
+    padding-left: 1vw;
+    font-size: 11px;
+  }
+
+  .subject {
+    margin-top: 2.77vh;
+  }
+  .mail-subject {
+    width: 35vw;
+    height: 4.4vh;
+    padding-left: 1vw;
+    font-size: 13px;
+  }
+  .mail-subject::placeholder {
+    font-weight: 300;
+    color: #999999;
+    opacity: 1;
+  }
+  .Send-Button {
+    left: 0vw;
+    top: 35vh;
+  }
+  .Contact-Button {
+    width: 25vw;
+    height: 5vh;
+  }
+  .Footer-Container {
+    margin-top: 75vh;
+  }
+  .Footer-Container .List-head {
+    font-size: 12px;
+  }
+  .Item-Text,
+  .Item-Text a {
+    font-size: 16px;
+  }
+  .List-head img {
+    width: 100%;
+  }
+  .logo-text {
+    font-size: 16px;
+    margin-right: 8vw;
+  }
+}
+@media only screen and (min-width: 801px) and (max-width: 1000px) {
+  .Contact-Banner {
+    height: 25vh;
+    font-size: 30px;
+  }
+  .map {
+    margin-top: 8vh;
+    margin-bottom: 5vh;
+  }
+  .map iframe {
+    width: 80vw;
+    height: 30vh;
+  }
+  .Contact {
+    width: 80vw;
+    left: 10vw;
+  }
+  .Contact-Title {
+    font-size: 15px;
+    font-weight: 600;
+    left: 0vw;
+  }
+  .TextArea {
+    left: 0vw;
+    top: 4vh;
+    width: 60vw;
+    height: 8vh;
+    padding-left: 1vw;
+    padding-top: 1vh;
+    font-size: 13px;
+  }
+  .Info {
+    left: 57.5vw;
+    top: 15vh;
+  }
+  .home {
+    position: absolute;
+    left: 3vh;
+  }
+  .Info-Location-Text {
+    left: 7vw;
+  }
+  .Info-Location-Text h3 {
+    font-size: 14px;
+  }
+  .Info-Location-Text p {
+    font-size: 12px;
+  }
+
+  .phone {
+    top: 5vh;
+    left: 3vh;
+  }
+  .Info-Number {
+    top: 5vh;
+    left: 7vw;
+  }
+  .Info-Number h3 {
+    font-size: 14px;
+  }
+  .Info-Number p {
+    font-size: 12px;
+  }
+  .envelope {
+    position: absolute;
+    top: 10.5vh;
+  }
+  .envelope{
+    position: absolute;
+    left: 3vh;
+  }
+  .Info-mail {
+    position: absolute;
+    top: 10.5vh;
+    left: 7vw;
+    display: inline-block;
+  }
+  .Info-mail h3 {
+    font-size: 14px;
+  }
+  .Info-mail p {
+    font-size: 12px;
+  }
+  .Customer-Details {
+    left: 0vw;
+    top: 15vh;
+  }
+  .customer-name {
+    width: 25vw;
+    height: 4.4vh;
+    padding-left: 1vw;
+    font-size: 11px;
+  }
+
+  .customer-mail {
+    display: block;
+    margin-top: 2vh;
+    margin-left: 0vw;
+    width: 25vw;
+    height: 4.4vh;
+    padding-left: 1vw;
+    font-size: 11px;
+  }
+
+  .subject {
+    margin-top: 2.77vh;
+  }
+  .mail-subject {
+    width: 35vw;
+    height: 4.4vh;
+    padding-left: 1vw;
+    font-size: 13px;
+  }
+  .mail-subject::placeholder {
+    font-weight: 300;
+    color: #999999;
+    opacity: 1;
+  }
+  .Send-Button {
+    left: 0vw;
+    top: 35vh;
+  }
+  .Contact-Button {
+    width: 25vw;
+    height: 5vh;
+  }
+  .Footer-Container {
+    margin-top: 60vh;
+  }
+  .Footer-Container .List-head {
+    font-size: 20px;
+  }
+  .Item-Text,
+  .Item-Text a {
+    font-size: 20px;
+  }
+  .List-head img {
+    width: 100px;
+  }
+  .logo-text {
+    font-size: 20px;
+    margin-right: 8vw;
+  }
+}
+@media only screen and (min-width: 1001px) and (max-width: 1920px) {
+  .Contact-Banner {
+    height: 25vh;
+    font-size: 30px;
+  }
+  .map {
+    margin-top: 8vh;
+    margin-bottom: 5vh;
+  }
+  .map iframe {
+    width: 80vw;
+    height: 30vh;
+  }
+  .Contact {
+    width: 80vw;
+    left: 10vw;
+  }
+  .Contact-Title {
+    font-size: 15px;
+    font-weight: 600;
+    left: 0vw;
+  }
+  .TextArea {
+    left: 0vw;
+    top: 4vh;
+    width: 60vw;
+    height: 8vh;
+    padding-left: 1vw;
+    padding-top: 1vh;
+    font-size: 13px;
+  }
+  .Info {
+    left: 57.5vw;
+    top: 15vh;
+  }
+  .home {
+    position: absolute;
+    left: 3vh;
+  }
+  .Info-Location-Text {
+    left: 7vw;
+  }
+  .Info-Location-Text h3 {
+    font-size: 14px;
+  }
+  .Info-Location-Text p {
+    font-size: 12px;
+  }
+
+  .phone {
+    top: 5vh;
+    left: 3vh;
+  }
+  .Info-Number {
+    top: 5vh;
+    left: 7vw;
+  }
+  .Info-Number h3 {
+    font-size: 14px;
+  }
+  .Info-Number p {
+    font-size: 12px;
+  }
+  .envelope {
+    position: absolute;
+    top: 10.5vh;
+  }
+  .envelope{
+    position: absolute;
+    left: 3vh;
+  }
+  .Info-mail {
+    position: absolute;
+    top: 10.5vh;
+    left: 7vw;
+    display: inline-block;
+  }
+  .Info-mail h3 {
+    font-size: 14px;
+  }
+  .Info-mail p {
+    font-size: 12px;
+  }
+  .Customer-Details {
+    left: 0vw;
+    top: 15vh;
+  }
+  .customer-name {
+    width: 25vw;
+    height: 4.4vh;
+    padding-left: 1vw;
+    font-size: 11px;
+  }
+
+  .customer-mail {
+    display: block;
+    margin-top: 2vh;
+    margin-left: 0vw;
+    width: 25vw;
+    height: 4.4vh;
+    padding-left: 1vw;
+    font-size: 11px;
+  }
+
+  .subject {
+    margin-top: 2.77vh;
+  }
+  .mail-subject {
+    width: 35vw;
+    height: 4.4vh;
+    padding-left: 1vw;
+    font-size: 13px;
+  }
+  .mail-subject::placeholder {
+    font-weight: 300;
+    color: #999999;
+    opacity: 1;
+  }
+  .Send-Button {
+    left: 0vw;
+    top: 35vh;
+  }
+  .Contact-Button {
+    width: 10vw;
+    height: 5vh;
+  }
+  .Footer-Container {
+    margin-top: 60vh;
+  }
+  .Footer-Container .List-head {
+    font-size: 20px;
+  }
+  .Item-Text,
+  .Item-Text a {
+    font-size: 20px;
+  }
+  .List-head img {
+    width: 100px;
+  }
+  .logo-text {
+    font-size: 20px;
+    margin-right: 8vw;
+  }
+}

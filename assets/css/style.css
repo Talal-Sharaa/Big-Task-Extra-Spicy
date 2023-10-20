@@ -1,0 +1,58 @@
+/*
+=================================================
+                Public Style
+=================================================
+*/
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+.Logo {
+  display: inline-block;
+}
+
+.navbar {
+  width: 100vw;
+  height: 13vh;
+  padding: 0 7vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Navbar-List {
+  list-style: none;
+}
+
+.Navbar-List-Item {
+  font-size: 16px;
+  font-weight: 600;
+  display: inline-block;
+  margin: 0 1vw;
+  padding: 0;
+  text-align: left;
+}
+
+.Navbar-List-Item a {
+  text-decoration: none;
+  color: black;
+}
+.Navbar-List-Item a:hover {
+  color: red;
+}
+
+.Navbar-Icons {
+  list-style: none;
+}
+
+.Navbar-Icons-Items {
+  display: inline-block;
+  margin: 0 1vw;
+}
